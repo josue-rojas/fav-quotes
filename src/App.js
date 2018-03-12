@@ -95,10 +95,10 @@ class App extends Component {
         </div>
         <div style={styles.datawrapper}>
           <div style={styles.quote}>
-            {this.state.quotes[index]}
+            "{this.state.quotes[index]}"
           </div>
           <div style={styles.author}>
-            {this.state.authors[index]}
+            - {this.state.authors[index]}
           </div>
           <span className='button' style={styles.button} onClick={this.changeQuote}>
             Change Quote
